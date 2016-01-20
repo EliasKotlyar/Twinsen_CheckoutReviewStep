@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Twinsen_CheckReviewStep>
+            <version>1.0.0</version>
+        </Twinsen_CheckReviewStep>
+    </modules>
+    <global>
+    </global>
+    <frontend>
+        <routers>
+            <twinsen>
+                <use>standard</use>
+                <args>
+                    <frontName>twinsen</frontName>
+                    <module>Twinsen_CheckReviewStep</module>
+                </args>
+            </twinsen>
+        </routers>
+        <layout>
+            <updates>
+                <twinsen_checkreviewstep>
+                    <file>twinsen_checkreviewstep.xml</file>
+                </twinsen_checkreviewstep>
+            </updates>
+        </layout>
+
+    </frontend>
+</config>
